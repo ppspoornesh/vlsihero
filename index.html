@@ -16,6 +16,7 @@
             min-height: 100vh;
             background: linear-gradient(135deg, #0A0E27 0%, #1E293B 100%);
             font-family: 'Inter', sans-serif;
+            overflow: hidden;
         }
         
         .redirect-container {
@@ -56,6 +57,21 @@
             font-size: 14px;
         }
         
+        .credits {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .credits span {
+            color: #00FF88;
+            font-weight: 600;
+        }
+
         .circuit-line {
             position: absolute;
             background: linear-gradient(90deg, transparent, #00FF88, transparent);
@@ -77,6 +93,12 @@
         <div class="spinner"></div>
         <div class="redirect-text">Initializing VLSI Hero...</div>
         <div class="redirect-subtext">Loading your digital design adventure</div>
+    </div>
+
+    <!-- Credits Section -->
+    <div class="credits">
+        <span>VLSI Hero</span> by Poornesh Gorrela<br>
+        <a href="mailto:gorrela_2022bece068@nitsri.ac.in" style="color:#00FF88; text-decoration:none;">gorrela_2022bece068@nitsri.ac.in</a>
     </div>
 
     <script>
